@@ -1,0 +1,46 @@
+.github_table {
+	align-items: center;
+	max-width: 80%
+}
+
+.github_table_parent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.github_table, .github_table *:not(a) {
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	padding: 0.4rem 1rem;
+	border-collapse: collapse;
+}
+
+.github_table th:first-child, .github_table td:first-child {
+	text-align: right;
+}
+
+.github_table thead tr {
+	background-color: #44CF6C;
+}
+
+.github_table tr:nth-child(even) {
+	background-color: #F1FFE7;
+}
+
+.page_buttons button{
+	border: none;
+	background-color: #FFF;
+	width: 3rem;
+	height: 3rem;
+	text-align: center;
+	line-height: 3rem;
+	transition: 0.1s ease-in all;
+}
+
+.page_buttons button:hover, .current_page{
+	background-color: #A9FDAC!important;
+}

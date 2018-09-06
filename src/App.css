@@ -1,0 +1,18 @@
+.App-header {
+  background-color: #444;
+  height: 7rem;
+  min-width: 40rem;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.App-title {
+	font-size: 2rem;
+	font-variant: small-caps;
+	padding-left: 10rem;
+	text-align: right;
+}
